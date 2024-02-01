@@ -1,6 +1,6 @@
 [submodule "dwmblocks"]
 	path = dwmblocks
-	url = git@github.com:vojtikczhraje/dwmblocks.git
+	url = https://github.com/vojtikczhraje/dwmblocks
 [submodule "dwm"]
 	path = dwm
-	url = git@github.com:vojtikczhraje/dwm.git
+	url = https://github.com/vojtikczhraje/dwm
