@@ -67,6 +67,13 @@ cd ../
     sudo make clean install
     cd ..
     ```
+    - Copy and edit xinitrc
+    ```bash
+    cd
+    cp /etc/X11/xinit/xinitrc .xinitrc
+    nvim .xinitrc
+    ```
+        - Now remove the last lines till fi and type exec dwm, save the file
 
     - Start dwm
     ```bash
