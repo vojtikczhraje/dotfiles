@@ -11,6 +11,7 @@
 
 set $mod Mod4
 
+# coooollooorrrs ~~
 set $bg-color #2b2b2b
 set $inactive-bg-color #3a3a3a
 set $text-color #d8d8d8
@@ -23,6 +24,11 @@ client.unfocused $inactive-border-color $inactive-bg-color $inactive-text-color
 client.focused_inactive $inactive-border-color $inactive-bg-color $inactive-text-color
 client.urgent #ff5555 #3a3a3a #ffffff
 client.placeholder #000000 #2b2b2b #d8d8d8
+
+# assign apps to each workspace
+assign [class="firefox"] 3
+assign [class="vesktop"] 5
+assign [class="spotify"] 5
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
